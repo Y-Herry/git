@@ -1,0 +1,13 @@
+rem布局的适配：
+      1、把px单位转换成rem单位
+        px = rem * html标签的font-size
+        ——》rem = px / html标签的font-size = px / 750设计图的html标签的font-size（自定义为50px）
+
+      2、设置不同屏幕下的html标签的font-size（等比例缩放）
+        比例 = 屏幕宽度 / html标签的font-size = 750 / 50 = 15
+
+        html标签的font-size = 屏幕宽度 / 比例 = 屏幕宽度 / 15
+
+
+px=rem*比例/屏幕宽度
+
